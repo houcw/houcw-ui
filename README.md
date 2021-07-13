@@ -2,23 +2,33 @@
 
 ## Project setup
 ```
-npm install
+npm install houcw-ui -S
+
 ```
 
-### Compiles and hot-reloads for development
+### Quick Start
 ```
-npm run serve
-```
+main.js
+import { createApp } from 'vue'
+import App from './App.vue'
+import houcwUI from '../packages/index'
+createApp(App).use(houcwUI).mount('#app')
 
-### Compiles and minifies for production
 ```
-npm run build
-```
+### vue 文件
 
-### Lints and fixes files
 ```
-npm run lint
-```
+<template>
+  <div>
+      <h-button></h-button>
+  </div>
+</template>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<script>
+export default {
+ 
+}
+</script>
+
+
+```
