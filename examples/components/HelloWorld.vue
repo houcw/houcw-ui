@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-      <h-button></h-button>
+      <h-button type='min'></h-button>
   </div>
 </template>
 
